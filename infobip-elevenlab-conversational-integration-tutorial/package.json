@@ -1,0 +1,19 @@
+{
+  "name": "infobip-elevenlab-conversational-integration",
+  "version": "1.0.0",
+  "description": "Connecting customers with ElevenLabs AI Agents through Infobip",
+  "scripts": {
+    "dev": "npm run start:calls & npm run start:ws",
+    "start:calls": "cd projects/calls_backend && npm start",
+    "start:ws": "cd projects/ws_backend && npm start",
+    "install:all": "npm install && cd projects/calls_backend && npm install && cd ../../projects/ws_backend && npm install"
+  },
+  "keywords": [
+    "infobip",
+    "elevenlabs",
+    "ai",
+    "calls"
+  ],
+  "author": "",
+  "license": "ISC"
+}
